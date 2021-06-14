@@ -1,0 +1,184 @@
+.form {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 10px 50px;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  justify-content: space-between;
+  transition: 0.2s ease;
+  width: 650px;
+}
+
+.minus {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 10px 50px;
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  justify-content: space-between;
+  transition: 0.2s ease;
+  width: 650px;
+}
+
+.h1 {
+  color: grey;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 500px;
+  margin-top: 5px;
+}
+
+.questionForm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 240px;
+  justify-content: space-evenly;
+  transition: 0.2s ease;
+}
+
+.minusQuest {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-evenly;
+  transition: 0.2s ease;
+}
+
+/* textArea */
+.textArea {
+  align-items: center;
+  background-color: transparent;
+  cursor: text;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  margin-top: 5px;
+  width: 650px;
+}
+
+.textarea {
+  border: none;
+  font-size: 16px;
+  height: 40px;
+  outline: none;
+  padding: 8px 0;
+  resize: none;
+  transition: 0.2s ease;
+  width: 600px;
+}
+
+.minusText {
+  border: none;
+  font-size: 16px;
+  height: 40px;
+  outline: none;
+  padding: 10px 0;
+  resize: none;
+  transition: 0.2s ease;
+  width: 560px;
+}
+
+.textArea textarea::placeholder {
+  color: rgb(153, 153, 153);
+  font-size: 16px;
+  letter-spacing: -1.5px;
+}
+
+.totalArea {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+}
+
+.count {
+  color: grey;
+  display: flex;
+  font-size: 14px;
+  height: 40px;
+  justify-content: flex-end;
+  width: 600px;
+}
+
+.minusCount {
+  display: none;
+}
+
+/* namearea */
+.nameArea {
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  width: 650px;
+}
+
+.minusName {
+  display: none;
+}
+
+.person {
+  align-items: center;
+  background-color: rgba(196, 196, 196, 0.527);
+  border-radius: 100px;
+  color: rgb(85, 85, 85);
+  display: flex;
+  font-size: 12px;
+  height: 30px;
+  justify-content: center;
+  margin-right: 12px;
+  width: 30px;
+}
+
+.user {
+  display: none;
+}
+
+.minusUser {
+  align-items: center;
+  background-color: rgba(196, 196, 196, 0.527);
+  border-radius: 100px;
+  color: rgb(85, 85, 85);
+  display: flex;
+  font-size: 15px;
+  height: 35px;
+  justify-content: center;
+  margin-right: 12px;
+  width: 35px;
+}
+
+.nameArea button {
+  background-color: #39ac37;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  outline: none;
+  transition: ease 0.2s;
+  width: 80px;
+}
+
+.nameArea button:hover {
+  background-color: #339930;
+  transition: ease 0.2s;
+}
+
+.nameArea label input {
+  border: none;
+  height: 31px;
+  outline: none;
+  width: 482px;
+}
+
+.nameArea label input::placeholder {
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+}

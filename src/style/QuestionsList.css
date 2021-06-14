@@ -1,0 +1,52 @@
+.questionsList {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.completeList {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.sort {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 450px;
+  width: 156px;
+}
+
+.sort button {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  height: 46px;
+  justify-content: center;
+}
+
+.sort button span {
+  color: rgb(54, 54, 54);
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: space-evenly;
+  width: 45%;
+}
+
+.list-bottom-lines {
+  background-color: #196fe0;
+  border-radius: 10px 10px 0 0;
+  height: 2px;
+  margin-left: -70px;
+  margin-top: 44px;
+  position: absolute;
+  transform: translateX(0);
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  width: 80px;
+}

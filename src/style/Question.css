@@ -1,0 +1,78 @@
+.question {
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 1px grey;
+  display: flex;
+  flex-direction: column;
+  height: 122px;
+  justify-content: space-around;
+  padding: 15px;
+  width: 650px;
+}
+
+.personName {
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  width: 600px;
+}
+
+.letter {
+  align-items: center;
+  background-color: teal;
+  border-radius: 50px;
+  display: flex;
+  height: 35px;
+  justify-content: center;
+  margin-right: 10px;
+  width: 35px;
+}
+
+.personName h1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.personName p {
+  font-size: 14px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.personQuestion {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  width: 600px;
+}
+
+.votes {
+  align-items: center;
+  align-self: center;
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 20px;
+  color: grey;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  height: 32px;
+  justify-content: space-evenly;
+  outline: none;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  width: 64px;
+}
+
+.votes:hover {
+  background-color: white;
+  box-shadow: 0 0 2px grey;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
